@@ -1,0 +1,28 @@
+{
+  "locations": [
+    {
+      "id": "dowslake",
+      "label": "Dow's Lake",
+      "latitude": 45.387,
+      "longitude": -75.704
+    },
+    {
+      "id": "fifthave",
+      "label": "Fifth Avenue",
+      "latitude": 45.421,
+      "longitude": -75.697
+    },
+    {
+      "id": "nac",
+      "label": "National Arts Centre",
+      "latitude": 45.425,
+      "longitude": -75.690
+    }
+  ],
+  "telemetry_ranges": {
+    "ice_thickness_cm": {"min": 10, "max": 40},
+    "surface_temperature_c": {"min": -15, "max": 3},
+    "snow_accumulation_cm": {"min": 0, "max": 15},
+    "external_temperature_c": {"min": -25, "max": 8}
+  }
+}
