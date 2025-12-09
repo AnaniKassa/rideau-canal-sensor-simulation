@@ -53,11 +53,11 @@ pip install -r requirements.txt
 ### 4. Configuration
 
 - Create a .env file in the project root:
-
+```
 IOTHUB_DEVICE_CONNECTION_STRING="your-device-connection-string"
 DEVICE_ID="rideau-sensor-01"
 SEND_INTERVAL_SECONDS=300      # default 5 minutes
-
+```
 - You can add multiple device files if you’re simulating several sensors (optional).
 
 ### 5. Usage
